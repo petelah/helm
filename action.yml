@@ -45,6 +45,9 @@ inputs:
   version:
     description: Version of the app, usually commit sha works here.
     required: false
+  repository:
+    description: Repository of the helm chart
+    required: true
 runs:
   using: docker
   image: Dockerfile
